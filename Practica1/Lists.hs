@@ -12,7 +12,6 @@
 -}
 
 module Lists where
-import Distribution.Types.VersionInterval (relaxHeadInterval)
 
 data List a = Void | Cons a (List a) -- deriving (Show)
 
